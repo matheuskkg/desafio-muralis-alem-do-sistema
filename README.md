@@ -48,12 +48,8 @@ git clone https://github.com/matheuskkg/desafio-muralis-server.git
 
 git clone https://github.com/matheuskkg/desafio-muralis-client.git
 ```
-Ou
-```
-git clone https://github.com/matheuskkg/desafio-muralis-alem-do-sistema.git
-```
 
-Ou, você pode baixar o código-fonte compactado acessando o [repositório principal](https://github.com/matheuskkg/desafio-muralis-alem-do-sistema) e seguindo as instruções conforme a imagem abaixo:
+Ou, você pode baixar o código-fonte compactado acessando os repositórios e seguindo as instruções conforme a imagem abaixo:
 <br><img src="https://sites.northwestern.edu/researchcomputing/files/2021/05/github.png">
 
 ## Rodando a aplicação
