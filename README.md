@@ -50,27 +50,27 @@ git clone https://github.com/matheuskkg/desafio-muralis-client.git
 ```
 Ou
 ```
-
+git clone https://github.com/matheuskkg/desafio-muralis-alem-do-sistema.git
 ```
 
-Ou, você pode baixar o código-fonte compactado acessando o [repositório principal]() e seguindo as instruções conforme a imagem abaixo:
+Ou, você pode baixar o código-fonte compactado acessando o [repositório principal](https://github.com/matheuskkg/desafio-muralis-alem-do-sistema) e seguindo as instruções conforme a imagem abaixo:
 <br><img src="https://sites.northwestern.edu/researchcomputing/files/2021/05/github.png">
 
 ## Rodando a aplicação
 Para rodar a aplicação back-end, é necessário ter instalado na sua máquina:
 * [Java 23](https://www.oracle.com/br/java/technologies/downloads/#java23)
-* [PostgreSQL 17.4](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) (Caso deseje utilizar outro banco de dados, lembre-se de alterar o driver no arquivo [pom.xml](server/pom.xml) e a URL no arquivo [application.properties](server/src/main/resources/application.properties))
+* [PostgreSQL 17.4](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) (Caso deseje utilizar outro banco de dados, lembre-se de alterar o driver no arquivo `pom.xml` e a URL no arquivo `application.properties`)
 
 Tendo instalado isso, será necessário criar um banco chamado 'muralis',
 [clicando aqui](https://www.tutorialsteacher.com/postgresql/create-database)
 você pode encontrar mais instruções sobre como criar o banco.
 
-Após isso será necessário configurar suas credenciais no arquivo [application.properties](server/src/main/resources/application.properties).
+Após isso será necessário configurar suas credenciais no arquivo application.properties.
 Substitua os valores de `spring.datasource.username` e `spring.datasource.password` pelas
 credenciais que você configurou ao baixar o Postgre.
 
 Agora você está preparado para rodar a aplicação back-end, sendo necessário apenas acessar a raiz do
-projeto (`desafio-muralis-server`) via terminal e executar o seguinte comando:
+projeto `server` via terminal e executar o seguinte comando:
 ```
 ./mvnw spring-boot:run
 ```
@@ -80,7 +80,7 @@ maneira de rodar a aplicação em um servidor local, para isso,
 recomendo a utilização da extensão 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 
 disponível no [VSCode](https://code.visualstudio.com/download). 
-Na descrição da extensão há instruções sobre como utilizá-la.
+Após isso basta abrir a pasta `client` como projeto no VSCode e seguir as instruções na descrição da extensão.
 
 ## Referências utilizadas
 * https://gist.github.com/fernandovaller/b10a3be0e7b3b46e5895b0f0e75aada5
